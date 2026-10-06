@@ -1,0 +1,10 @@
+[
+  {"question":"What is Rolac and what is it used for?","must_contain":["ketorolac"],"must_not_abstain":true},
+  {"question":"What is the active ingredient of Doxicap?","must_contain":["doxycycline"],"must_not_abstain":true},
+  {"question":"Maxpro used for?","must_contain":["ulcers"],"must_not_abstain":true},
+  {"question":"What is the usual adult dose of Rolip?","must_contain":["5-40 mg","once daily"],"must_not_abstain":true},
+  {"question":"What are common side effects of Fenadin?","must_contain":["headache","drowsiness"],"must_not_abstain":true},
+  {"question":"Use in pregnancy and breast-feeding","must_contain":["Doxicap","Fenadin","Maxpro","Rolac","Rolip"],"must_not_abstain":true},
+  {"question":"What is the capital of Bangladesh?","must_contain":[],"must_not_abstain":false},
+  {"question":"What is the recommended insulin dose for diabetes?","must_contain":[],"must_not_abstain":false}
+]

@@ -1,0 +1,3 @@
+from app.ingest import build_vectorstore
+if __name__ == "__main__":
+    build_vectorstore()
