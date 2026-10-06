@@ -1,0 +1,27 @@
+[project]
+name = "renata-v4-apex"
+version = "0.1.0"
+description = "Renata PLC Leaflet Assistant"
+readme = "README.md"
+requires-python = ">=3.12"
+
+dependencies = [
+    "chromadb>=0.5",
+    "fastapi>=0.115",
+    "langchain>=0.3",
+    "langchain-chroma>=0.1.2",
+    "langchain-groq>=0.2",
+    "langchain-huggingface>=0.1",
+    "langchain-text-splitters>=0.3",
+    "langgraph>=0.2",
+    "pydantic>=2.7",
+    "pymupdf>=1.24",
+    "pytest>=9.1.1",
+    "python-dotenv>=1.0",
+    "sentence-transformers>=3.0",
+    "uvicorn[standard]>=0.30",
+]
+
+[tool.pytest.ini_options]
+pythonpath = ["."]
+testpaths = ["tests"]
